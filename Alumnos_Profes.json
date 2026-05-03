@@ -1,0 +1,28 @@
+[
+    {
+        "legajo": 1234,
+        "nombre": "Joaquin",
+        "apellido": "Estefania",
+        "edad": 20,
+        "notaFinal": 9.5
+    },
+    {
+        "legajo": 1235,
+        "nombre": "Nacho",
+        "apellido": "Monte",
+        "edad": 19,
+        "notaFinal": 9.5
+    },
+    {
+        "nombre": "Maria",
+        "apellido": "Gomez",
+        "edad": 35,
+        "materia": "Matematica"
+    },
+    {
+        "nombre": "Juan",
+        "apellido": "Perez",
+        "edad": 40,
+        "materia": "Historia"
+    }
+]

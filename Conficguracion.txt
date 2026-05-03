@@ -1,0 +1,5 @@
+Este programa se conecta mediante PHP a la BdD en MySQL en el woeckbrench, la configuracion que coencta php con sql ya esta configuarada yanda a la prefeccion, lo que corregi para que pueda andar bien fueron:
+1- En la clase guardar usar directamnte el objeto que me crea la clase conexion, no crear un objeto sobre la clase porque se pisa.
+2- En la clase del profesor.php agregar las ' ' en el campo de getMateria() (cuando lo inserto en la BdD) porque es varchar osea texto y tiene que ir con ' '.
+3- Crear en la BdD el procedimiento insertarAlumno, si bien estaba escrito pero no lo habia creado con el rayo.
+4- Cambiar el orden de los idAlumno y idProfe en la parte de insertarCurso, repetando el orden que tiene en el proceso de la BdD.
